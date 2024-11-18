@@ -1,0 +1,2762 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-31T05:58:38.309Z",
+        "line": 38,
+        "name": "",
+        "description": "I want to add Suppliers with Multiple Data",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2092190900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch browser as",
+            "match": {
+              "location": "ERPSteps.launch_browser_as()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4927523900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch url",
+            "match": {
+              "location": "ERPSteps.launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 608435500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wait for username with \"name\" and \"username\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ERPSteps.wait_for_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 402500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter username with \"name\" and \"username\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter password with \"xpath\" and \"//input[@id\u003d\u0027password\u0027]\" and \"master\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027password\u0027]\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"master\"",
+                  "offset": 62
+                }
+              ],
+              "location": "ERPSteps.enter_password_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3244545000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click login button with \"xpath\" and \"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_login_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36598300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "wait for supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplierlink_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 805372000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_supplierlink_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31977800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for AddIcon with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ERPSteps.wait_for_AddIcon_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684482300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click AddIcon button with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.click_AddIcon_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33653400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for supplier number with \"name\" and \"x_Supplier_Number\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 65
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplier_number_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16327800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "capture supplier number with \"name\" and \"x_Supplier_Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ERPSteps.capture_supplier_number_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110267500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter in \"Vamshi\" with \"name\" and \"x_Supplier_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vamshi\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"x_Supplier_Name\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101900500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter in \"Ameerpet\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ameerpet\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103715500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter in \"Hyderabad\" with \"xpath\" and \"//input[@id\u003d\u0027x_City\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_City\u0027]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78671300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter in \"India\" with \"xpath\" and \"//input[@id\u003d\u0027x_Country\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Country\u0027]\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85811400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter in \"Sravani\" with \"xpath\" and \"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sravani\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86631000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter in \"9874678941\" with \"xpath\" and \"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9874678941\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95373200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter in \"Vamshi-@gmail.com\" with \"xpath\" and \"//input[@id\u003d\u0027x__Email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vamshi-@gmail.com\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x__Email\u0027]\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83959800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter in \"8966743290\" with \"xpath\" and \"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8966743290\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94717100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter in \"I am a new Supplier\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am a new Supplier\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+                  "offset": 48
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48594100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click Add button with \"id\" and \"btnAction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"btnAction\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ERPSteps.click_Add_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22100700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "wait for confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_confirm_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 897822600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 41
+                }
+              ],
+              "location": "ERPSteps.click_confirm_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 564716500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "wait for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ERPSteps.wait_for_Alert_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41682500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 43
+                }
+              ],
+              "location": "ERPSteps.click_for_Alert_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3766541200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify suppliernumber",
+            "match": {
+              "location": "ERPSteps.verify_suppliernumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 818533000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click logout with \"xpath\" and \"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ERPSteps.click_logout_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185762900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "close browser",
+            "match": {
+              "location": "ERPSteps.close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Supplier"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-31T05:58:57.981Z",
+        "line": 39,
+        "name": "",
+        "description": "I want to add Suppliers with Multiple Data",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 959626200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch browser as",
+            "match": {
+              "location": "ERPSteps.launch_browser_as()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4227682600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch url",
+            "match": {
+              "location": "ERPSteps.launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25251900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wait for username with \"name\" and \"username\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ERPSteps.wait_for_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter username with \"name\" and \"username\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter password with \"xpath\" and \"//input[@id\u003d\u0027password\u0027]\" and \"master\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027password\u0027]\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"master\"",
+                  "offset": 62
+                }
+              ],
+              "location": "ERPSteps.enter_password_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3240471900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click login button with \"xpath\" and \"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_login_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30436800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "wait for supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplierlink_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 825839400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_supplierlink_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24852600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for AddIcon with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ERPSteps.wait_for_AddIcon_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722256400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click AddIcon button with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.click_AddIcon_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24766000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for supplier number with \"name\" and \"x_Supplier_Number\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 65
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplier_number_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18146500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "capture supplier number with \"name\" and \"x_Supplier_Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ERPSteps.capture_supplier_number_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97793800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter in \"Vamshitha\" with \"name\" and \"x_Supplier_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vamshitha\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"name\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"x_Supplier_Name\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74929200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter in \"Begumpet\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Begumpet\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79947800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter in \"Hyderabad\" with \"xpath\" and \"//input[@id\u003d\u0027x_City\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_City\u0027]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78948100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter in \"India\" with \"xpath\" and \"//input[@id\u003d\u0027x_Country\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Country\u0027]\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80267800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter in \"Sravanthi\" with \"xpath\" and \"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sravanthi\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76718400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter in \"9874679941\" with \"xpath\" and \"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9874679941\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85035300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter in \"Vamshitha-@gmail.com\" with \"xpath\" and \"//input[@id\u003d\u0027x__Email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vamshitha-@gmail.com\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x__Email\u0027]\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73171500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter in \"8966743291\" with \"xpath\" and \"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8966743291\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81047200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter in \"I am a new Supplier\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am a new Supplier\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+                  "offset": 48
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46467200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click Add button with \"id\" and \"btnAction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"btnAction\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ERPSteps.click_Add_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20263800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "wait for confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_confirm_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 843106200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 41
+                }
+              ],
+              "location": "ERPSteps.click_confirm_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 587861200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "wait for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ERPSteps.wait_for_Alert_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88991900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 43
+                }
+              ],
+              "location": "ERPSteps.click_for_Alert_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3749494200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify suppliernumber",
+            "match": {
+              "location": "ERPSteps.verify_suppliernumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 857145000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click logout with \"xpath\" and \"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ERPSteps.click_logout_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236182800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "close browser",
+            "match": {
+              "location": "ERPSteps.close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Supplier"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-31T05:59:15.242Z",
+        "line": 40,
+        "name": "",
+        "description": "I want to add Suppliers with Multiple Data",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 874218700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch browser as",
+            "match": {
+              "location": "ERPSteps.launch_browser_as()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4165879900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch url",
+            "match": {
+              "location": "ERPSteps.launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23208300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wait for username with \"name\" and \"username\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ERPSteps.wait_for_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter username with \"name\" and \"username\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter password with \"xpath\" and \"//input[@id\u003d\u0027password\u0027]\" and \"master\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027password\u0027]\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"master\"",
+                  "offset": 62
+                }
+              ],
+              "location": "ERPSteps.enter_password_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3102889300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click login button with \"xpath\" and \"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_login_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36905300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "wait for supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplierlink_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777366100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_supplierlink_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25615100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for AddIcon with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ERPSteps.wait_for_AddIcon_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728128400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click AddIcon button with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.click_AddIcon_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26266800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for supplier number with \"name\" and \"x_Supplier_Number\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 65
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplier_number_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18870700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "capture supplier number with \"name\" and \"x_Supplier_Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ERPSteps.capture_supplier_number_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109510600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter in \"Himanshi\" with \"name\" and \"x_Supplier_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Himanshi\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"x_Supplier_Name\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79207300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter in \"Ameerpet\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ameerpet\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85630900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter in \"Hyderabad\" with \"xpath\" and \"//input[@id\u003d\u0027x_City\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_City\u0027]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74100000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter in \"India\" with \"xpath\" and \"//input[@id\u003d\u0027x_Country\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Country\u0027]\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76819400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter in \"Sravya\" with \"xpath\" and \"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sravya\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+                  "offset": 35
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80358100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter in \"9874678942\" with \"xpath\" and \"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9874678942\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94713800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter in \"Himanshi-@gmail.com\" with \"xpath\" and \"//input[@id\u003d\u0027x__Email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Himanshi-@gmail.com\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x__Email\u0027]\"",
+                  "offset": 48
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89363500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter in \"8966743292`\" with \"xpath\" and \"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8966743292`\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89576100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter in \"I am a new Supplier\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am a new Supplier\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+                  "offset": 48
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43789900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click Add button with \"id\" and \"btnAction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"btnAction\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ERPSteps.click_Add_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542919100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "wait for confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_confirm_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 849289600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 41
+                }
+              ],
+              "location": "ERPSteps.click_confirm_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574818300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "wait for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ERPSteps.wait_for_Alert_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31511700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 43
+                }
+              ],
+              "location": "ERPSteps.click_for_Alert_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3649845300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify suppliernumber",
+            "match": {
+              "location": "ERPSteps.verify_suppliernumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 811430000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click logout with \"xpath\" and \"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ERPSteps.click_logout_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204790500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "close browser",
+            "match": {
+              "location": "ERPSteps.close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Supplier"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-31T05:59:32.510Z",
+        "line": 41,
+        "name": "",
+        "description": "I want to add Suppliers with Multiple Data",
+        "id": ";;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 835518200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch browser as",
+            "match": {
+              "location": "ERPSteps.launch_browser_as()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3963598700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch url",
+            "match": {
+              "location": "ERPSteps.launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579959300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wait for username with \"name\" and \"username\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ERPSteps.wait_for_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter username with \"name\" and \"username\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_username_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter password with \"xpath\" and \"//input[@id\u003d\u0027password\u0027]\" and \"master\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027password\u0027]\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"master\"",
+                  "offset": 62
+                }
+              ],
+              "location": "ERPSteps.enter_password_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3285980800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click login button with \"xpath\" and \"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//button[@id\u003d\u0027btnsubmit\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_login_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33688200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "wait for supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplierlink_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 792487800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click supplierlink with \"xpath\" and \"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"(//a[contains(text(),\u0027Suppliers\u0027)])[2]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.click_supplierlink_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21993200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for AddIcon with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 73
+                }
+              ],
+              "location": "ERPSteps.wait_for_AddIcon_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711315200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click AddIcon button with \"xpath\" and \"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(//span[@data-caption\u003d\u0027Add\u0027])[1]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.click_AddIcon_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22229800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for supplier number with \"name\" and \"x_Supplier_Number\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 65
+                }
+              ],
+              "location": "ERPSteps.wait_for_supplier_number_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12880600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "capture supplier number with \"name\" and \"x_Supplier_Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"x_Supplier_Number\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ERPSteps.capture_supplier_number_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101826300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter in \"Pranay\" with \"name\" and \"x_Supplier_Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pranay\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"x_Supplier_Name\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88256200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter in \"Sr Nagar\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sr Nagar\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Address\u0027]\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83551800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter in \"Hyderabad\" with \"xpath\" and \"//input[@id\u003d\u0027x_City\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_City\u0027]\"",
+                  "offset": 38
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75246500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter in \"India\" with \"xpath\" and \"//input[@id\u003d\u0027x_Country\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Country\u0027]\"",
+                  "offset": 34
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81734600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter in \"Madhuri\" with \"xpath\" and \"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Madhuri\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Contact_Person\u0027]\"",
+                  "offset": 36
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81732800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter in \"9387923401\" with \"xpath\" and \"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9387923401\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Phone_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100621000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter in \"Pranay-@gmail.com\" with \"xpath\" and \"//input[@id\u003d\u0027x__Email\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pranay-@gmail.com\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x__Email\u0027]\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96686200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter in \"7893461244\" with \"xpath\" and \"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7893461244\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"//input[@id\u003d\u0027x_Mobile_Number\u0027]\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100911900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter in \"I am a new Supplier\" with \"xpath\" and \"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am a new Supplier\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"xpath\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"//textarea[@id\u003d\u0027x_Notes\u0027]\"",
+                  "offset": 48
+                }
+              ],
+              "location": "ERPSteps.enter_in_with_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52260700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click Add button with \"id\" and \"btnAction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"btnAction\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ERPSteps.click_Add_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21533000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "wait for confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 84
+                }
+              ],
+              "location": "ERPSteps.wait_for_confirm_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 853561000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click confirm OK button with \"xpath\" and \"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"//button[normalize-space()\u003d\u0027OK!\u0027]\"",
+                  "offset": 41
+                }
+              ],
+              "location": "ERPSteps.click_confirm_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580836100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "wait for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ERPSteps.wait_for_Alert_OK_button_with_and_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50560200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click for Alert OK button with \"xpath\" and \"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"(//button[starts-with(text(),\u0027OK\u0027)])[6]\"",
+                  "offset": 43
+                }
+              ],
+              "location": "ERPSteps.click_for_Alert_OK_button_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3663487100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify suppliernumber",
+            "match": {
+              "location": "ERPSteps.verify_suppliernumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 856670400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click logout with \"xpath\" and \"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xpath\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"(//a[starts-with(text(),\u0027 Logout\u0027)])[2]\"",
+                  "offset": 30
+                }
+              ],
+              "location": "ERPSteps.click_logout_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184454900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "close browser",
+            "match": {
+              "location": "ERPSteps.close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Supplier"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As Admin User I want use ERP Module",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Supplier.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
